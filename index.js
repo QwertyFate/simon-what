@@ -8,7 +8,7 @@ var gamoversound = new Audio("sounds/wrong.mp3");
 $("#level-title").click(function(){
     nextSequence();
     started = true;
-};
+});
                         
 $(document).keydown(function(event){
     if(started == true){
